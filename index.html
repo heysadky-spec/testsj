@@ -3,28 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Redirecting...</title>
+  <title>Reel Style Landing Page</title>
   <style>
-    html, body {
+    * {
       margin: 0;
       padding: 0;
-      height: 100%;
-      width: 100%;
-      background: url('https://imagecdn.live/images/webp/c90daa17-a796-4a1e-9fe3-007ab4a4f87f.webp') no-repeat center center/cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #000;
+      overflow-y: scroll;
       font-family: Arial, sans-serif;
-      color: white;
+    }
+    .reel {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <h2>Redirecting, please wait...</h2>
+
+  <!-- Reel 1 -->
+  <div class="reel" 
+       style="background-image: url('https://imagecdn.live/images/webp/22065ebd-c15d-4ed4-b190-45116789924c.webp');"
+       onclick="redirect()">
+  </div>
+
+  <!-- Reel 2 -->
+  <div class="reel" 
+       style="background-image: url('https://imagecdn.live/images/webp/a5da8c27-f427-41c7-99ed-3c27a66cf941.webp');"
+       onclick="redirect()">
+  </div>
+
+  <!-- Reel 3 -->
+  <div class="reel" 
+       style="background-image: url('https://imagecdn.live/images/webp/e3f475ce-21bc-41a2-83ef-0c2a9f88c971.webp');"
+       onclick="redirect()">
+  </div>
+
+  <!-- Reel 4 -->
+  <div class="reel" 
+       style="background-image: url('https://imagecdn.live/images/webp/7f394dff-983a-4082-97fb-4fd1a716cd92.webp');"
+       onclick="redirect()">
+  </div>
+
+  <!-- Reel 5 -->
+  <div class="reel" 
+       style="background-image: url('https://imagecdn.live/images/webp/c05ef875-7d97-4b69-b980-0a94c9afc471.webp');"
+       onclick="redirect()">
+  </div>
+
   <script>
-    setTimeout(() => {
+    function redirect() {
       window.location.href = "https://reptiledoodle.com/jza4tvjdcs?key=ef0e6578fda9dfad8d260f8c9e94b9ee";
-    }, 2000);
+    }
   </script>
+
 </body>
 </html>
